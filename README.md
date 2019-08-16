@@ -6,7 +6,7 @@ WeChat:<br>
 <br>
 ## 项目简介
 
-oxpecker是一款用于提取开发项目仓库地址、当前分支、三方组件等信息用于安全分析的JetBrains家族IDE插件。
+oxpecker是一款用于从IDE提取开发项目仓库地址、当前分支、三方组件等信息用于安全分析的JetBrains家族IDE插件。
 
 ---
 ## 一、准备
