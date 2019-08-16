@@ -1,0 +1,19 @@
+plugins {
+    id 'org.jetbrains.intellij' version '0.4.8'
+}
+
+group 'com.thecastle'
+version plugin_version
+
+
+apply plugin: 'idea'
+apply plugin: 'java'
+
+
+intellij {
+    version idea_version
+    pluginName plugin_name
+    plugins 'git4idea'
+    updateSinceUntilBuild false
+}
+

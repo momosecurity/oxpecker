@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>com.thecastle.oxpecker</id>
+    <name>oxpecker</name>
+    <version>1.0.0</version>
+    <vendor  email="iicoming@hotmail.com" url="https://github.com/iicoming" />
+    <description><![CDATA[
+    project's git information and dependency information extraction for security analysis
+    ]]></description>
+    <project-components>
+        <component>
+            <implementation-class>com.thecastle.idea.component.OxpeckerProjectComponent</implementation-class>
+        </component>
+    </project-components>
+    <idea-version since-build="162.1628.40"/>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <projectService serviceImplementation="com.thecastle.idea.config.OxpeckerProjectConfig"/>
+    </extensions>
+
+    <depends>com.intellij.modules.vcs</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>Git4Idea</depends>
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

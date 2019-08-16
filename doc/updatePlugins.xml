@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <plugin id="com.thecastle.oxpecker" url="./oxpecker-1.0.0.jar" version="1.0.0">
+         <idea-version since-build="162.1628.40" />
+    </plugin>
+</plugins>
